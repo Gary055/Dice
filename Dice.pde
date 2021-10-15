@@ -34,7 +34,7 @@ class Die
   void show()
   {
     fill(255);
-    square(myX,myY,30);
+    rect(myX,myY,30, 30);
     fill(0);
     if(counter == 1){
       ellipse(myX+10,myY+10,2,2);
